@@ -1,5 +1,5 @@
 # Platform
-TARGET_BOARD_PLATFORM := msm8916
+TARGET_BOARD_PLATFORM := msm8937
 
 # Architecture
 ifneq ($(FORCE_32_BIT),true)
@@ -27,9 +27,9 @@ TARGET_CPU_VARIANT := cortex-a53
 endif
 
 # Init
-TARGET_INIT_VENDOR_LIB := libinit_msm8916
+TARGET_INIT_VENDOR_LIB := libinit_msm8937
 TARGET_PLATFORM_DEVICE_BASE := /devices/soc.0/
-TARGET_RECOVERY_DEVICE_MODULES := libinit_msm8916
+TARGET_RECOVERY_DEVICE_MODULES := libinit_msm8937
 
 # Qualcomm support
 BOARD_USES_QCOM_HARDWARE := true
